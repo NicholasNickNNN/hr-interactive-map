@@ -1,6 +1,20 @@
-composer.phar
-/vendor/
+# OS files
+.DS_Store
+Thumbs.db
 
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+# IDE/editor config
+.vscode/
+.idea/
+
+# Logs and caches
+*.log
+*.cache
+
+# WordPress specific temporary stuff (ako testiraš lokalno)
+wp-content/cache/
+wp-content/uploads/
+wp-content/debug.log
+
+# Composer / Node (ako ih dodaš kasnije)
+vendor/
+node_modules/
